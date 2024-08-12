@@ -29,7 +29,7 @@ double mod(int n1, int n2)
 int main()
 {
     int op;
-    cout << "Select a number corresponding the mathematical operation you want to do\n";
+    cout << "Select a number corresponding to the mathematical operation you want to execute\n";
     cout << "(1) addition\n";
     cout << "(2) subtraction\n";
     cout << "(3) multiplication\n";
