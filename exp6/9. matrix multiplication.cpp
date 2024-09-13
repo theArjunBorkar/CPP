@@ -5,14 +5,14 @@ int main() {
     cout << "Enter 1st matrix's order (m n): ";
     cin >> m >> n;
     int a[m][n];
-    cout << "Enter 1st matrix's elements:" << endl;
+    cout << "Enter 1st matrix's elements:\n";
     for (int i = 0; i < m; i++)
         for (int j = 0; j < n; j++)
             cin >> a[i][j];
     cout << "Enter 2nd matrix's order (p q): ";
     cin >> p >> q;
     int b[p][q];
-    cout << "Enter 2nd matrix's elements:" << endl;
+    cout << "Enter 2nd matrix's elements:\n";
     for (int i = 0; i < p; i++)
         for (int j = 0; j < q; j++)
             cin >> b[i][j];
