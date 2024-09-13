@@ -7,10 +7,6 @@ int main()
     for (int i = 0; i < 5; i++){
         cin >> a[i];
     }
-    cout << "Array:\n";\
-    for (int i = 0; i < 5; i++) {
-        cout << a[i] << ' ';
-    }
     cout << '\n';
     tmp = a[0];
     a[0] = a[4];
