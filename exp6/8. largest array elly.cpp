@@ -3,7 +3,7 @@ using namespace std;
 int main()
 {
     int a[3][3], comp = a[2][2];
-    cout << "Enter the elements for a 3x3 array: ";
+    cout << "Enter (3x3) array elements: ";
     for (int i = 0; i < 3; i++) {
         for (int j = 0; j < 3; j++) {
             cin >> a[i][j];
