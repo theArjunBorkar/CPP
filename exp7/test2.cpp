@@ -2,11 +2,11 @@
 using namespace std;
 int lrgst_arr_elly(int arr[], int n)
 {
-    int mx = arr[0];
+    int max = arr[0];
     for (int i = 0; i < n; i++)
-        if (arr[i] > mx)
-            mx = arr[i];
-    return mx;
+        if (arr[i] > max)
+            max = arr[i];
+    return max;
 }
 int main()
 {
