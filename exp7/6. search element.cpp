@@ -30,7 +30,6 @@ int main() {
     int num, choice;
     cout << "Enter a number: ";
     cin >> num;
-    cout << "Menu:" << '\n';
     cout << "1. Sum of digits" << '\n';
     cout << "2. Reverse of a number" << '\n';
     cout << "3. Number of digits" << '\n';
