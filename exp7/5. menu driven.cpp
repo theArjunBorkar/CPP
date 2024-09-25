@@ -9,6 +9,14 @@ int add_digits(int num) {
     }
     return sum;
 }
+int count_digits(int num) {
+    int cnt = 0;
+    while (num != 0) {
+        num /= 10;
+        cnt++;
+    }
+    return cnt;
+}
 int rev_digits(int num) {
     int digit, reverse = 0;
     while (num != 0) {
@@ -17,14 +25,6 @@ int rev_digits(int num) {
         num /= 10;
     }
     return reverse;
-}
-int count_digits(int num) {
-    int cnt = 0;
-    while (num != 0) {
-        num /= 10;
-        cnt++;
-    }
-    return cnt;
 }
 int main() {
     int num, choice;
