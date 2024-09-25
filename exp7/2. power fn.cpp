@@ -9,7 +9,7 @@ int power(int x, int y)
 }
 int main()
 {
-    int res, x, y;
+    int x, y;
     cout << "Enter a number: ";
     cin >> x;
     cout << "Enter its power: ";
