@@ -31,10 +31,10 @@ int main() {
     cout << "Enter a number: ";
     cin >> num;
     cout << "Menu:\n";
-    cout << "1. Sum of digits" << '\n';
-    cout << "2. Reverse of a number" << '\n';
-    cout << "3. Number of digits" << '\n';
-    cout << "4. Exit" << '\n';
+    cout << "1) Sum of digits" << '\n';
+    cout << "2) Reverse of a number" << '\n';
+    cout << "3) Number of digits" << '\n';
+    cout << "4) Exit" << '\n';
     cout << "Enter your choice: ";
     cin >> choice;
     switch (choice) {
