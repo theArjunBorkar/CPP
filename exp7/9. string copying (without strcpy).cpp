@@ -1,5 +1,4 @@
 #include <iostream>
-#include <cstring>
 using namespace std;
 void str_copy(char str_1[], char str_2[]){
     for (int i = 0; str_2[i] != '\0'; i++) {
