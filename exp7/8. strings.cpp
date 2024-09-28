@@ -1,5 +1,4 @@
 #include <iostream>
-#include <cstring>
 using namespace std;
 int str_len(char str[]) {
     int length = 0;
