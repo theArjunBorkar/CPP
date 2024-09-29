@@ -21,7 +21,7 @@ int main() {
     strncat(s1, "World", n);
     cout << "Concatenate n characters of World to string 1: " << s1 << endl;
     cout << "Comparison of string 1 and string 2: " << strcmp(s1, s2) << endl;
-    cout << "Comparison of first n characters of string 1 and string 2: " << strncmp(s1, s2, n) << endl;
+    cout << "Comparison of 1st n characters of string 1 and string 2: " << strncmp(s1, s2, n) << endl;
     cout << "Character '" << ch << "' in string 1: " << strchr(s1, ch) << endl;
     cout << "Last occurrence of character '" << ch << "' in string 1: " << strrchr(s1, ch) << endl;
     return 0;
