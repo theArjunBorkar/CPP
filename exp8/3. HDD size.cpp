@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 struct specs {
-    char CPU[5];
+    char CPU[10];
     int HDD;
     int puter_num;
 };
