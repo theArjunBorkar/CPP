@@ -12,7 +12,7 @@ int main() {
         cin >> puter[i].puter_num;
         fflush(stdin);
         cout << "Enter your CPU: ";
-        cin.getline(puter[i].CPU, 5) ;
+        cin.getline(puter[i].CPU, 10) ;
         fflush(stdin);
         cout << "Enter your HDD size (in GB): ";
         cin >> puter[i].HDD;
