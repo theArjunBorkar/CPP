@@ -20,10 +20,10 @@ int main() {
     char str[] = "Hello, world!";
     int aCount = 0, eCount = 0, iCount = 0, oCount = 0, uCount = 0;
     vowels(str, aCount, eCount, iCount, oCount, uCount);
-    cout << "Number of 'a' vowels: " << aCount << endl;
-    cout << "Number of 'e' vowels: " << eCount << endl;
-    cout << "Number of 'i' vowels: " << iCount << endl;
-    cout << "Number of 'o' vowels: " << oCount << endl;
-    cout << "Number of 'u' vowels: " << uCount << endl;
+    cout << "A: " << aCount << endl;
+    cout << "E: " << eCount << endl;
+    cout << "I: " << iCount << endl;
+    cout << "O: " << oCount << endl;
+    cout << "U: " << uCount << endl;
     return 0;
 }
