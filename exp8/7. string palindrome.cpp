@@ -1,6 +1,5 @@
 #include <iostream>
 using namespace std;
-
 void str_pal(char *str, int size) {
     char *start = str;
     char *end = str + size - 1;
