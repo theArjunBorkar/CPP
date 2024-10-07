@@ -19,7 +19,7 @@ void vowels(char *str, int &aCount, int &eCount, int &iCount, int &oCount, int &
 int main() {
     char str[] = "Hello, world!";
     int aCount = 0, eCount = 0, iCount = 0, oCount = 0, uCount = 0;
-    countVowelsSeparately(str, aCount, eCount, iCount, oCount, uCount);
+    vowels(str, aCount, eCount, iCount, oCount, uCount);
     cout << "Number of 'a' vowels: " << aCount << endl;
     cout << "Number of 'e' vowels: " << eCount << endl;
     cout << "Number of 'i' vowels: " << iCount << endl;
