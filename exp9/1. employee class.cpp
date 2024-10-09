@@ -11,7 +11,8 @@ int main() {
     cin.getline(emp.name, 20);
     cout << "Enter salary: ";
     cin >> emp.salary;
-    cout << emp.name << '\n';
-    cout << emp.salary;
+    cout << "Employee details:\n";
+    cout << "Name: " << emp.name << '\n';
+    cout << "Salary: " << emp.salary;
     return 0;
 }
