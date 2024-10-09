@@ -8,7 +8,6 @@ private:
     int chem;
     int maths;
     int avg;
-
 public:
     void input() {
         cout << "Enter student name: ";
