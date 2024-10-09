@@ -42,12 +42,10 @@ public:
 };
 int main() {
     std_rec rec[10];
-
     for (int i = 0; i < 10; i++) {
         rec[i].input();
         rec[i].average();
         rec[i].output();
     }
-
     return 0;
 }
