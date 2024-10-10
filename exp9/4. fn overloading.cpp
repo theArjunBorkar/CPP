@@ -13,6 +13,6 @@ int main() {
     addition add;
     cout << add.sum(5, 10) << endl;
     cout << add.sum(5, 10, 15) << endl;
-    cout << add.sum(0.7f, 0.5f);
+    cout << add.sum(0.7, 0.5);
     return 0;
 }
