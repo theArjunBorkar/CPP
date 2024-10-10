@@ -1,9 +1,6 @@
 #include <iostream>
 using namespace std;
 class addition {
-    double a;
-    double b;
-    double c;
 public:
     double sum(double x, double y) {
         return x + y;
