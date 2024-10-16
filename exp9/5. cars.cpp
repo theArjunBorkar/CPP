@@ -7,18 +7,25 @@ private:
     int year;
 public:
     void start() {
-        cout << brand << ' ' << model <<  " has started" << endl;
+        cout << brand << " has started" << endl;
     }
     void stop() {
-        cout << brand << ' ' << model << " has stopped";
+        cout << brand << " has stopped";
     }
-    void input() {
+    void setBrand() {
         cout << "Enter car's brand: ";
         cin >> brand;
+        cout << brand << endl;
+    }
+    void setModel() {
         cout << "Enter car's model: ";
         cin >> model;
+        cout << "Model: " << model << endl;
+    }
+    void setYear() {
         cout << "Enter car's year: ";
         cin >> year;
+        cout << "Year: " << year << endl;
     }
     void output() {
         start();
@@ -27,7 +34,9 @@ public:
 };
 int main() {
     car urCar;
-    urCar.input();
+    urCar.setBrand();
+    urCar.setModel();
+    urCar.setYear();
     urCar.output();
     return 0;
 }
