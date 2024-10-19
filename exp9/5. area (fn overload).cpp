@@ -14,7 +14,7 @@ public:
 };
 int main() {
     shapes quad;
-    quad.calArea(10.0, 5.0);
-    quad.calArea(10.0);
+    quad.calArea(10.0f, 5.0f);
+    quad.calArea(10.0f);
     return 0;
 }
