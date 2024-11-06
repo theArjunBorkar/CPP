@@ -9,7 +9,7 @@ public:
 class mumma_papa : public dada_dadi {
 public:
     void bangla() {
-        cout << "Mummy-papa ke paas bangla hai" << endl;
+        cout << "Mumma-papa ke paas bangla hai" << endl;
     }
 };
 class raees_bacchha : public mumma_papa {
