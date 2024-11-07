@@ -26,13 +26,13 @@ int main() {
         double sal;
         cout << "Enter employee ID: ";
         cin >> id;
-        cin.ignore();
+        fflush(stdin);
         cout << "Enter employee name: ";
         cin.getline(name, 10);
-        cin.ignore();
+        fflush(stdin);
         cout << "Enter employee salary: ";
         cin >> sal;
-        cin.ignore();
+        fflush(stdin);
         emp[i] = employee(id, name, sal);
     }
     for (int i = 0; i < 2; i++) {
