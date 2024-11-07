@@ -24,7 +24,7 @@ int main() {
         int id;
         char name[10];
         double sal;
-        cout << "Enter employee id: ";
+        cout << "Enter employee ID: ";
         cin >> id;
         cin.ignore();
         cout << "Enter employee name: ";
