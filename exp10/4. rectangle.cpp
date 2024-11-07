@@ -1,9 +1,8 @@
 #include <iostream>
 using namespace std;
 class rectangle {
-protected:
-    double length, width;
 public:
+    double length, width;
     rectangle(double l, double w) {
         length = l;
         width = w;
@@ -12,10 +11,9 @@ public:
         return length * width;
     }
 };
-class box : protected rectangle {
-private:
-    double depth;
+class box : public rectangle {
 public:
+    double depth;
     box(double l, double w, double d) : rectangle(l, w) {
         depth = d;
     }
