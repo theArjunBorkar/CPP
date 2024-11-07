@@ -13,7 +13,7 @@ public:
         emp_sal = sal;
     }
     void display() {
-        cout << "\nEmployee id: " << emp_id;
+        cout << "\nEmployee ID: " << emp_id;
         cout << "\nEmployee name: " << emp_name;
         cout << "\nEmployee salary: " << emp_sal;
     }
