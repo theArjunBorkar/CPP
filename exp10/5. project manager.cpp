@@ -1,10 +1,9 @@
 #include <iostream>
 using namespace std;
 class employee {
-protected:
+public:
     int id;
     char name[10];
-public:
     void getData() {
         cout << "Enter employee ID : ";
         cin >> id;
@@ -16,10 +15,9 @@ public:
         cout << "Name: " << name << endl;
     }
 };
-class manager : protected employee {
-protected:
-    int sal;
+class manager : public employee {
 public:
+    int sal;
     void getData() {
         employee::getData();
         cout << "Enter employee's salary: ";
@@ -30,10 +28,9 @@ public:
         cout << "Salary: " << sal << endl;
     }
 };
-class projectManager : protected manager {
-protected:
-    int totalExp, projectsHandled;
+class projectManager : public manager {
 public:
+    int totalExp, projectsHandled;
     void getData() {
         manager::getData();
         cout << "Enter total experience (in years): ";
